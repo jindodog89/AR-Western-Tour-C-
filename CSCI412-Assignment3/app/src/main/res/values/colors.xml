@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRED_PastDue">#E6332B</color>
+    <color name="colorRED_PastDue1">#EF5870</color>
+    <color name="colorWHITE_STILLDue">#FFFFFF</color>
+    <color name="colorGREEN_STILLDue">#B9EE8D</color>
+    <color name="colorGREY_STILLDue">#E5E9E1</color>
+
+</resources>

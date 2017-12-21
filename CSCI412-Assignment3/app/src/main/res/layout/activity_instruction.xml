@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.54">
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="204dp"
+            android:layout_weight="0.17"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="To update a task, you need to long-click on the task grid in the main screen. In other words, you need to put your finger on a task in the main screen and hold it until you are led to Update screen. "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_weight="0.31">
+
+        <Button
+            android:id="@+id/button_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:background="#ffffff"
+            android:text="Back"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

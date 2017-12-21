@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSCI412-Assignment3</string>
+    <string name="action_settings">Settings</string>
+    <string name="add"></string>
+    <string name="delete"></string>
+    <string name="update"></string>
+    <string name="TaskInformation">Task Information</string>
+    <string name="TaskInformationEdit">Task Information Edit version</string>
+    <string name="DueDate">YYYY/MM/DD</string>
+    <string name="Name">Name</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="button_back">BACK</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="#ffffff"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="#ffffff"
+            android:text="Save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_TaskInformation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:maxLength="20"
+            android:hint="@string/TaskInformation" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginLeft="29dp"
+            android:text="Due Date"
+            android:hint="YYYY"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_YYYY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:maxLength="4"
+            android:hint="YYYY"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/add_MM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxLength="2"
+            android:hint="MM"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/add_DD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:maxLength="2"
+            android:hint="DD"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="@string/Name" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:hint="@string/EmailAddress" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
